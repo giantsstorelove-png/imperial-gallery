@@ -92,6 +92,7 @@ img { display: block; max-width: 100%; height: auto; }
 .chapter-no small { display: block; font-size: 14px; font-style: italic; letter-spacing: .3em; color: var(--sub); margin-top: 10px; }
 .chapter-title { font-weight: 500; font-size: clamp(20px, 2.4vw, 28px); letter-spacing: .15em; line-height: 1.7; margin-top: 18px; }
 .chapter-text { font-size: 15px; color: #5b574f; line-height: 2.3; border-left: 1px solid var(--line); padding-left: 36px; }
+.chapter-text rt { font-size: .55em; letter-spacing: .05em; color: var(--sub); }
 .chapter-count { display: block; margin-top: 14px; font-family: var(--serif-en); font-size: 13px; color: var(--sub); letter-spacing: .25em; }
 
 /* 写真の並び（高さの違う写真もきれいに並ぶ段組） */
