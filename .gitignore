@@ -1,0 +1,14 @@
+# 元の大きな写真（GitHubには縮小版の images/ だけを載せます）
+/TOP画像/
+/②*/
+/③*/
+/④*/
+/⑤*/
+/⑥*/
+/⑦*/
+
+# ローカル用の設定
+/.claude/
+desktop.ini
+Thumbs.db
+.DS_Store

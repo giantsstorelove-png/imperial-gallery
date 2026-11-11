@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>祈りと微笑み ─ 皇室フォトギャラリー</title>
+<meta name="description" content="沿道から見つめた皇室の皆様の姿を集めたフォトギャラリー。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Shippori+Mincho:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#top" class="logo">IMPERIAL <span>GALLERY</span></a>
+  <nav class="nav" id="nav"></nav>
+</header>
+
+<!-- TOP画像 -->
+<section class="hero" id="top">
+  <img class="hero-img" src="images/top/DSC00383.jpg" alt="車窓から笑顔で手を振られる愛子さま">
+  <div class="hero-shade"></div>
+  <div class="hero-text">
+    <p class="hero-en">Prayer &amp; Smile</p>
+    <h1 class="hero-ja">祈りと、微笑みと。</h1>
+    <p class="hero-sub">皇室フォトギャラリー</p>
+  </div>
+  <a href="#intro" class="scroll">scroll</a>
+</section>
+
+<section class="intro" id="intro">
+  <p class="intro-en">Imperial Family Photo Gallery</p>
+  <p class="intro-lead">
+    千年を超えて受け継がれてきた、国と人々の安寧への祈り。<br>
+    そして、ひとりひとりに向けられる温かな眼差し。
+  </p>
+  <p class="intro-body">
+    沿道でそっと手を振ってくださる、そのわずかな一瞬に、<br class="pc">
+    この国が大切に守り続けてきた、穏やかで品格ある美しさが宿っています。<br>
+    心に残る瞬間を、ここに綴じました。
+  </p>
+</section>
+
+<main id="gallery"></main>
+
+<section class="outro">
+  <p class="intro-en">Into the Future</p>
+  <p class="intro-lead">祈りは、静かに受け継がれていく。</p>
+  <p class="intro-body">
+    時代が移ろっても、変わらないものがあります。<br>
+    人々に寄り添い、平和を願い続けるそのお姿を、これからも見つめていきます。
+  </p>
+  <a href="#top" class="totop">Back to top</a>
+</section>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> IMPERIAL GALLERY &mdash; All photographs are the property of the photographer.</p>
+</footer>
+
+<!-- 写真の拡大表示 -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" aria-label="閉じる">&times;</button>
+  <button class="lb-prev" aria-label="前の写真">&#8249;</button>
+  <figure class="lb-figure">
+    <img class="lb-img" alt="">
+    <figcaption class="lb-cap"></figcaption>
+  </figure>
+  <button class="lb-next" aria-label="次の写真">&#8250;</button>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
