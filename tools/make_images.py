@@ -14,6 +14,7 @@ sections = [
     ("⑤神嘗祭のため皇居に入られる皇族の皆様", "05-kannamesai"),
     ("⑥第80回国民スポーツ大会（青の煌めきあおもり国スポ）", "06-aomori-kokuspo"),
     ("⑦悠仁親王殿下【広島奉迎・平和記念公園】", "07-hiroshima"),
+    ("⑧大阪行幸啓(11月14日～15日)", "08-osaka"),
 ]
 manifest = {}
 for src, slug in sections:
